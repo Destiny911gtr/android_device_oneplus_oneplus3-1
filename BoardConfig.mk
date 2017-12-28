@@ -58,7 +58,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
+TARGET_KERNEL_SOURCE := kernel/oneplus/nos
 TARGET_KERNEL_CONFIG := nos_oneplus3_defconfig
 
 # partitions
@@ -212,3 +212,5 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_LANGUAGE := en-US
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_CRYPTO := true
+
+ALLOW_MISSING_DEPENDENCIES=true

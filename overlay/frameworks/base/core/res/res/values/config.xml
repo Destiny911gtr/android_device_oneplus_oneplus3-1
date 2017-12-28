@@ -29,7 +29,7 @@
     <bool name="config_intrusiveNotificationLed">true</bool>
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!-- bool name="config_intrusiveBatteryLed">true</bool -->
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -252,9 +252,9 @@
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">71</integer>
+    <!-- integer name="config_deviceHardwareKeys">71</integer -->
 
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!-- bool name="config_deviceHasVariableButtonBrightness">true</bool -->
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
@@ -418,7 +418,7 @@
    <!-- Should the pinner service pin the Camera application? -->
    <bool name="config_pinnerCameraApp">true</bool>
 
-   <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+   <!-- bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool -->
 
    <!-- If this is true, device supports Sustained Performance Mode. -->
    <bool name="config_sustainedPerformanceModeSupported">true</bool>
@@ -442,5 +442,5 @@
     <string name="config_deviceKeyHandlerClass" translatable="false">org.omnirom.device.KeyHandler</string>
 
     <!-- Whether device has dash charging support -->
-    <bool name="config_hasDashCharger">true</bool>
+    <!-- bool name="config_hasDashCharger">true</bool -->
 </resources>
