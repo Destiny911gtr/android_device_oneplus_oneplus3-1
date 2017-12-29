@@ -213,4 +213,8 @@ TW_DEFAULT_LANGUAGE := en-US
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_CRYPTO := true
 
+# Allow Missing Dependencies
 ALLOW_MISSING_DEPENDENCIES=true
+
+# Build without dexpreopt
+WITH_DEXPREOPT=false
